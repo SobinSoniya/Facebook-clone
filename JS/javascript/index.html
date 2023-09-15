@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="show()"> Click me </button>
+
+    <script>
+        function show(){
+            console.log("Button Clicked");
+            var a=1
+            var b=5
+            var sum=a+b
+            console.log("Sum="+ sum)
+            
+            var c=64
+            if(c%4==0)
+            {
+                console.log("Number is even")
+            }else{
+                console.log("Number is odd")
+            }
+
+            for( var i=0; i<10; i++){
+                console.log(i)
+            }
+
+            var fruit = ["apple", "orange", "kiwi", 34]
+            console.log(fruit)
+            console.log(fruit[2])
+
+            var person = [{
+                Name: "Arun",
+                Age: 20,
+                Place:"kalladai"
+            },
+            { Name: "Sangavi",
+              Age: 40,
+              Place: "Pootteti"}
+        ]
+            console.log(person)
+            console.log("Age:" + person[1].Age)
+        }
+    </script>
+</body>
+</html>
