@@ -20,6 +20,14 @@ body{
     margin-left: 170px;
     font-family: helvetica Neue, Arial, Helvetica, sans-serif;
 }
+.logo-text{
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    text-decoration: none;
+    margin-left: 170px;
+    font-family: helvetica Neue, Arial, Helvetica, sans-serif;
+}
 .login{
     width: 50%;
     float: left;
